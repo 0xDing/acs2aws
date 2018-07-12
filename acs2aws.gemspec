@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Login and retrieve AWS STS using a any SAML IDP.'
   spec.description   = 'Login and retrieve AWS STS Token using a any SAML IDP. Inspired by OAuth2WebServerFlow.'
-  spec.homepage      = 'https:///github.com/borisding1994/acs2aws'
+  spec.homepage      = 'https://github.com/borisding1994/acs2aws'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -31,11 +31,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'aws-sdk', '~> 3.0', '>= 3.0.1'
+  spec.add_dependency 'aws-sdk-iam', '~> 1.5'
   spec.add_dependency 'clamp', '~> 1.3'
   spec.add_dependency 'colorize', '~> 0.8.1'
   spec.add_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-  spec.add_dependency 'mime-types', '~> 3.1'
   spec.add_dependency 'nokogiri', '~> 1.8', '>= 1.8.4'
   spec.add_dependency 'puma', '~> 3.11', '>= 3.11.4'
   spec.add_dependency 'rack', '~> 2.0', '>= 2.0.5'
