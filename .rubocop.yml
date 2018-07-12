@@ -1,0 +1,6 @@
+inherit_gem:
+  rubocop-scc:
+    - config/default.yml
+AllCops:
+  Exclude:
+  - 'bin/**/*'
