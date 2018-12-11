@@ -5,175 +5,38 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.5.1" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-eventstream (v1.0.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-partitions (v1.95.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk (v3.0.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-acm (v1.9.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-acmpca (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-alexaforbusiness (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-apigateway (v1.13.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-applicationautoscaling (v1.11.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-applicationdiscoveryservice (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-appstream (v1.12.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-appsync (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-athena (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-autoscaling (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-autoscalingplans (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-batch (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-budgets (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloud9 (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-clouddirectory (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudformation (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudfront (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudhsm (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudhsmv2 (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudsearch (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudsearchdomain (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudtrail (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudwatch (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudwatchevents (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cloudwatchlogs (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-codebuild (v1.11.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-codecommit (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-codedeploy (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-codepipeline (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-codestar (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cognitoidentity (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cognitoidentityprovider (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-cognitosync (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-comprehend (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-configservice (v1.12.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-connect (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-core (v3.22.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-costandusagereportservice (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-costexplorer (v1.7.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-databasemigrationservice (v1.7.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-datapipeline (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-dax (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-devicefarm (v1.7.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-directconnect (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-directoryservice (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-dynamodb (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-dynamodbstreams (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-ec2 (v1.38.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-ecr (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-ecs (v1.15.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-efs (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-eks (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elasticache (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elasticbeanstalk (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elasticloadbalancing (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elasticloadbalancingv2 (v1.11.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elasticsearchservice (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-elastictranscoder (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-emr (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-firehose (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-fms (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-gamelift (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-glacier (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-glue (v1.10.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-greengrass (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-guardduty (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-health (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iam (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-importexport (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-inspector (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iot (v1.9.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iot1clickdevicesservice (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iot1clickprojects (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iotanalytics (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iotdataplane (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iotjobsdataplane (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kinesis (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kinesisanalytics (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kinesisvideo (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kinesisvideoarchivedmedia (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kinesisvideomedia (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-kms (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-lambda (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-lambdapreview (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-lex (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-lexmodelbuildingservice (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-lightsail (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-machinelearning (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-macie (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-marketplacecommerceanalytics (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-marketplaceentitlementservice (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-marketplacemetering (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mediaconvert (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-medialive (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mediapackage (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mediastore (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mediastoredata (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mediatailor (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-migrationhub (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mobile (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mq (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-mturk (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-neptune (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-opsworks (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-opsworkscm (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-organizations (v1.10.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-pi (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-pinpoint (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-polly (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-pricing (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-rds (v1.23.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-redshift (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-rekognition (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-resourcegroups (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-resourcegroupstaggingapi (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-resources (v3.21.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-route53 (v1.10.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-route53domains (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-s3 (v1.17.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-sagemaker (v1.11.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-sagemakerruntime (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-secretsmanager (v1.10.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-serverlessapplicationrepository (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-servicecatalog (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-servicediscovery (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-ses (v1.8.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-shield (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-simpledb (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-sms (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-snowball (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-sns (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-sqs (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-ssm (v1.18.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-states (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-storagegateway (v1.6.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-support (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-swf (v1.1.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-transcribeservice (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-translate (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-waf (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-wafregional (v1.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-workdocs (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-workmail (v1.2.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-workspaces (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-xray (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sigv2 (v1.0.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="aws-sigv4 (v1.0.3, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="clamp (v1.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="colorize (v0.8.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jmespath (v1.4.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.4.3, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mustermann (v1.0.2, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.2, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="puma (v3.11.4, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.5, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v2.0.3, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.5.0, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sinatra (v2.0.3, ruby-2.5.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.8, ruby-2.5.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.5.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-eventstream (v1.0.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-partitions (v1.122.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-core (v3.44.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-sdk-iam (v1.13.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="aws-sigv4 (v1.0.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="clamp (v1.3.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="colorize (v0.8.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jaro_winkler (v1.5.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jmespath (v1.4.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.4.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mustermann (v1.0.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.8.5, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel (v1.12.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parser (v2.5.3.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="powerpack (v0.1.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v3.0.3, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.6, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v2.0.4, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rainbow (v3.0.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubocop (v0.61.1, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubocop-scc (v0.2.2, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.10.0, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v2.0.4, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.9, RVM: ruby-2.5.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v1.4.0, RVM: ruby-2.5.1) [gem]" level="application" />
   </component>
 </module>

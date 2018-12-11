@@ -13,8 +13,8 @@ module Acs2aws
       @saml = Nokogiri::XML(Base64.decode64(encode_saml))
       role_entitlement = @saml.xpath('//*[@Name="https://aws.amazon.com/SAML/Attributes/Role"]')
                              .children.children.to_s.split(',')
-      # TODO: support customized region.
 
+      # TODO: support customized region.
       client = Aws::STS::Client.new(region: 'ap-southeast-1', credentials: nil)
       resp = client.assume_role_with_saml(
            role_arn: role_entitlement[0],
@@ -23,7 +23,7 @@ module Acs2aws
            # 12 hours
            duration_seconds: 43200
        )
-      puts resp
+      # puts resp
       system "aws configure --profile default set aws_access_key_id #{resp.credentials.access_key_id}"
       system "aws configure --profile default set aws_secret_access_key #{resp.credentials.secret_access_key}"
       system "aws configure --profile default set aws_session_token #{resp.credentials.session_token}"

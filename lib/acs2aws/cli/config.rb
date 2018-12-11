@@ -4,7 +4,6 @@ require 'clamp'
 require 'colorize'
 require 'uri'
 
-
 module Acs2aws
   module Cli
     class ConfigCommand < Clamp::Command
@@ -16,7 +15,7 @@ module Acs2aws
       def execute
         puts 'SAML SP Start Page URL:'.colorize(:red)
         sp_url = STDIN.gets.chomp
-        until URI.parse(sp_url).kind_of?(URI::HTTP)
+        until URI.parse(sp_url).is_a?(URI::HTTP)
           puts 'Error: '.colorize(:red) + 'URL must be a valid uri with a scheme matching the http https pattern. Please enter again.'
           sp_url = STDIN.gets.chomp
         end

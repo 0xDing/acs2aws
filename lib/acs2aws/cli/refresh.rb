@@ -4,7 +4,6 @@ require 'clamp'
 require 'launchy'
 require 'acs2aws/acs_server'
 
-
 module Acs2aws
   module Cli
     class RefreshCommand < Clamp::Command

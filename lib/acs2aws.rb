@@ -15,7 +15,7 @@ module Acs2aws
       exit(0)
     end
 
-    subcommand 'config', 'configure an IDP settings', Cli::ConfigCommand
+    subcommand 'config', 'configure an SAML settings', Cli::ConfigCommand
     subcommand 'refresh', 'retrieve AWS STS token', Cli::RefreshCommand
   end
 

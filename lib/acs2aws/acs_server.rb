@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sinatra/base'
+require 'sinatra/silent'
 require 'acs2aws/aws_sts'
 require 'uri'
 
@@ -15,16 +16,20 @@ module Acs2aws
       @instance = Sinatra.new do
         set :port, Acs2aws::SERVER_PORT
         set :title, 'acs2aws'
+        set :server, 'webrick'
+        set :lock, true
+        set :silent_all, true
         get '/' do
+          puts "SAML Web Proxy Listening on http://localhost:#{Acs2aws::SERVER_PORT}"
           redirect "#{sp_url}?cli_port=#{Acs2aws::SERVER_PORT}"
         end
 
         post '/saml_acs' do
           Acs2aws::AwsSts.new(params['SAMLResponse'])
-          body 'Successfully. <script>window.opener = self;window.close();</script>'
+          body 'Successfully:) If this windows does not close automatically, please manually close this window. <script>window.opener = self;window.close();</script>'
           Thread.new do
-            sleep 1
-            Process.kill 'INT', Process.pid
+            sleep 2
+            Process.kill 'TERM', Process.pid
           end
           halt 200
         end
