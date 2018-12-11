@@ -38,8 +38,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rack', '~> 2.0', '>= 2.0.6'
   spec.add_dependency 'sinatra', '~> 2.0', '>= 2.0.4'
 
-  spec.add_development_dependency 'bundler', '~> 1.17.1'
-  spec.add_development_dependency 'minitest', '~> 5.11.3'
+  spec.add_development_dependency 'bundler', '~> 1.17', '>= 1.17.1'
+  spec.add_development_dependency 'minitest', '~> 5.11', '>= 5.11.3'
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rubocop', '~> 0.61.1'
   spec.add_development_dependency 'rubocop-scc', '~> 0.2.2'
