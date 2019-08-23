@@ -30,17 +30,17 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'bin'
   spec.executables   << 'acs2aws'
   spec.require_paths = ['lib']
-  spec.add_dependency 'aws-sdk-iam', '~> 1.13'
-  spec.add_dependency 'clamp', '~> 1.3'
+  spec.add_dependency 'aws-sdk-iam', '~> 1.29'
+  spec.add_dependency 'clamp', '~> 1.3.1'
   spec.add_dependency 'colorize', '~> 0.8.1'
   spec.add_dependency 'launchy', '~> 2.4', '>= 2.4.3'
-  spec.add_dependency 'nokogiri', '~> 1.8', '>= 1.8.5'
-  spec.add_dependency 'rack', '~> 2.0', '>= 2.0.6'
-  spec.add_dependency 'sinatra', '~> 2.0', '>= 2.0.4'
+  spec.add_dependency 'nokogiri', '~> 1.10', '>= 1.10.4'
+  spec.add_dependency 'rack', '~> 2.0', '>= 2.0.7'
+  spec.add_dependency 'sinatra', '~> 2.0', '>= 2.0.7'
 
   spec.add_development_dependency 'bundler', '~> 1.17', '>= 1.17.1'
   spec.add_development_dependency 'minitest', '~> 5.11', '>= 5.11.3'
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rubocop', '~> 0.61.1'
-  spec.add_development_dependency 'rubocop-scc', '~> 0.2.2'
+  spec.add_development_dependency 'rubocop-scc', '~> 1.1.0'
 end
